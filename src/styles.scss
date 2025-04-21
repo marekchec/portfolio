@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'app/styles/reset.scss';
+
+:root {
+  --primary-color: #c0c4b6;
+  --secondary-color: #0a3b4d;
+  --header-height: 5rem;
+  --footer-height: 5rem;
+  --main-padding-horizontal: 2rem;
+
+  -webkit-tap-highlight-color: transparent;
+
+  font-family: 'Inter';
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    margin: 0;
+  }
+}

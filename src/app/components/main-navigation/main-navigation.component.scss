@@ -1,0 +1,27 @@
+.navigation {
+  align-items: center;
+  display: flex;
+}
+
+.item {
+  color: #888;
+  display: flex;
+  font-size: 0.9rem;
+  margin: 0 1rem;
+
+  &--highlighted {
+    background: #438a95;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+  }
+
+  &__icon {
+    --size: 15px;
+    display: block;
+    height: var(--size);
+    margin: 0 0.5rem 0 0;
+    width: var(--size);
+  }
+}

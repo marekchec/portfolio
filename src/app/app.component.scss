@@ -1,0 +1,85 @@
+@import 'styles/mixins/breakpoints';
+
+.app {
+  font-size: 10px;
+  min-height: 100vh;
+
+  @include media-breakpoint-up(sm) {
+    --main-padding-horizontal: 4rem;
+  }
+}
+
+.header {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  height: var(--header-height);
+  left: 0;
+  padding: 0 var(--main-padding-horizontal);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__logo {
+    --size: 50px;
+    height: var(--size);
+    margin: 0 0.8rem 0 0;
+    width: var(--size);
+  }
+
+  &__title {
+    border-left: 1px solid #000;
+    font-family: 'DM Serif Text';
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0 0 0 0.8rem;
+  }
+
+  &__navigation {
+    margin: 0 0 0 auto;
+  }
+}
+
+.body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  //padding: var(--header-height) 0 0;
+  position: relative;
+
+  @include media-breakpoint-up(sm) {
+    // padding: var(--header-height) 0 0;
+  }
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  height: var(--footer-height);
+  justify-content: space-between;
+  padding: 0 var(--main-padding-horizontal);
+  width: 100%;
+
+  &__passion {
+    color: #999;
+    display: flex;
+
+    .bold {
+      color: #333;
+      font-weight: 700;
+    }
+
+    .icon {
+      display: block;
+      margin: 0 0.6rem 0 0.3rem;
+      max-width: 16px;
+    }
+  }
+
+  &__all-rights-reserved {
+    color: #999;
+  }
+}

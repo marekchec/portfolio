@@ -1,0 +1,9 @@
+export { DiscordLogoSvgComponent } from './discord-logo-svg/discord-logo-svg.component';
+export { GithubLogoSvgComponent } from './github-logo-svg/github-logo-svg.component';
+export { HeartFillSvgComponent } from './heart-fill-svg/heart-fill-svg.component';
+export { InstagramLogoSvgComponent } from './instagram-logo-svg/instagram-logo-svg.component';
+export { LinkedInLogoSvgComponent } from './linkedin-logo-svg/linkedin-logo-svg.component';
+export { MarekChecLogoSvgComponent } from './marekchec-logo-svg/marekchec-logo.component';
+export { TiktokLogoSvgComponent } from './tiktok-logo-svg/tiktok-logo-svg.component';
+export { ShopSvgComponent } from './shop-svg/shop-svg.component';
+export { XingLogoSvgComponent } from './xing-logo-svg/xing-logo-svg.component';

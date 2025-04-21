@@ -1,1 +1,20 @@
-<router-outlet />
+<div class="app">
+  <header class="header">
+    <img class="header__logo" src="assets/new_marekchec_logo_v2 2.png" />
+    <div class="header__title">Marek Chec</div>
+    <div class="header__navigation">
+      <mc-main-navigation />
+    </div>
+  </header>
+  <main class="body">
+    <router-outlet />
+  </main>
+  <footer class="footer">
+    <div class="footer__passion">
+      <div class="bold">Built with passion and</div>
+      <div class="icon"><mc-heart-fill-svg /></div>
+      <div>| marekchec.com</div>
+    </div>
+    <div class="footer__all-rights-reserved">All rights reserved 2024-2025</div>
+  </footer>
+</div>
